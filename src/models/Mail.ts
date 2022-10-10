@@ -1,17 +1,17 @@
 import { Result } from '../common/Result';
-import { EmailAdress } from './EmailAddress';
+import { EmailAddress } from './EmailAddress';
 
 export interface IMail {
-  sourceAddress: EmailAdress;
-  destinationAddress: EmailAdress;
+  sourceAddress: EmailAddress;
+  destinationAddress: EmailAddress;
   subject: string;
   body: string;
   replyToAddress?: string;
 }
 
 export class Mail implements IMail {
-  public sourceAddress: EmailAdress;
-  public destinationAddress: EmailAdress;
+  public sourceAddress: EmailAddress;
+  public destinationAddress: EmailAddress;
   public subject: string;
   public body: string;
   public replyToAddress?: string;
