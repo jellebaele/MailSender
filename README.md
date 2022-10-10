@@ -1,1 +1,3 @@
 # MailSender
+
+SOLID principles
